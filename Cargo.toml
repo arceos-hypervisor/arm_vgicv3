@@ -1,0 +1,13 @@
+[package]
+name = "arm_vgicv3"
+version = "0.1.0"
+edition = "2024"
+description = "ARM Generic Interrupt Controller version 3 (GICv3) register definitions and basic operations"
+
+[dependencies]
+axdevice_base = { git = "https://github.com/arceos-hypervisor/axdevice_crates.git"}
+axaddrspace = { git = "https://github.com/arceos-hypervisor/axaddrspace.git" }
+memory_addr = "0.3"
+axerrno = "0.1.0"
+
+
